@@ -20,3 +20,9 @@ data/processed/
 # IDE
 .vscode/
 .idea/
+
+# Secrets
+.env
+**/.env
+kaggle.json
+**/kaggle.json

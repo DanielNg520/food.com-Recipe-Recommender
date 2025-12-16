@@ -10,7 +10,18 @@ Recommends recipes using:
 - data/raw/: raw datasets (ignored by git)
 - data/processed/: cleaned datasets (ignored by git)
 
-## Quickstart
-1) Create env + install deps
+## Data
+
+This project pulls the dataset directly from Kaggle via `kagglehub`:
+
+- Dataset: `shuyangli94/food-com-recipes-and-user-interactions`
+
+### Kaggle authentication (required)
+
+`kagglehub` can authenticate using environment variables:
+
 ```bash
-pip install -r requirements.txt
+export KAGGLE_USERNAME="YOUR_KAGGLE_USERNAME"
+export KAGGLE_KEY="YOUR_KAGGLE_API_KEY"
+
+
